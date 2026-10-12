@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-// 🌟 Fixed: Directly referencing the root asset file path for Vite compatibility
-import myPhoto from '/manasi.jpeg';
 
 function App() {
   return (
@@ -75,7 +73,7 @@ function App() {
         </div>
       </section>
 
-      {/* Skills Section */}
+      {/* Skills Section - Fully Restructured and Fixed */}
       <section id="skills" className="skills-section">
         <div className="section-container">
           <h2 className="section-title">Technical Skills</h2>
@@ -154,13 +152,13 @@ function App() {
         </div>
       </section>
 
-      {/* Contact Section - Fully synchronized with your uploaded manasi.jpeg */}
+      {/* Contact Section - Clean Direct Filename Mapping */}
       <section id="contact" className="contact-section">
         <div className="section-container">
           <h2 className="section-title">Get In Touch</h2>
           <div className="contact-wrapper">
             <div className="contact-image-card">
-              <img src={myPhoto} alt="Mansi Patil" className="profile-img" />
+              <img src="manasi.jpeg" alt="Mansi Patil" className="profile-img" />
             </div>
             <div className="contact-card">
               <p>I am currently looking for Software Development and Application Support roles. Let's connect!</p>
