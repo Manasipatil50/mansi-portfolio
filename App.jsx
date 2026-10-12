@@ -36,8 +36,6 @@ function App() {
         <div className="section-container">
           <h2 className="section-title">About Me & Education</h2>
           <div className="about-grid">
-            
-            {/* Bio Card */}
             <div className="about-card bio-card">
               <h3>Who I Am</h3>
               <p>
@@ -51,7 +49,6 @@ function App() {
               </p>
             </div>
 
-            {/* Education Timeline Card */}
             <div className="about-card edu-card">
               <h3>Academic Background</h3>
               <div className="timeline">
@@ -72,7 +69,6 @@ function App() {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
@@ -106,7 +102,7 @@ function App() {
                 <li>MySQL / SQL Server</li>
                 <li>Git & GitHub</li>
                 <li>Postman</li>
-                <li>REST APIs / CRUD</li>
+                <li>REST APIs</li>
               </ul>
             </div>
           </div>
@@ -118,8 +114,6 @@ function App() {
         <div className="section-container">
           <h2 className="section-title">Projects</h2>
           <div className="projects-grid">
-            
-            {/* Project 1 */}
             <div className="project-card">
               <div className="project-header">
                 <h3>Smart Event Booking System</h3>
@@ -137,7 +131,6 @@ function App() {
               </div>
             </div>
 
-            {/* Project 2 */}
             <div className="project-card">
               <div className="project-header">
                 <h3>Art Gallery Management System</h3>
@@ -155,7 +148,6 @@ function App() {
                 <span>MySQL</span>
               </div>
             </div>
-
           </div>
         </div>
       </section>
@@ -165,13 +157,9 @@ function App() {
         <div className="section-container">
           <h2 className="section-title">Get In Touch</h2>
           <div className="contact-wrapper">
-            
-            {/* Left Side: Profile Image Card */}
             <div className="contact-image-card">
               <img src="/mansi-photo.jpg" alt="Mansi Patil" className="profile-img" />
             </div>
-
-            {/* Right Side: Contact Info Card */}
             <div className="contact-card">
               <p>I am currently looking for Software Development and Application Support roles. Let's connect!</p>
               <div className="contact-info">
@@ -184,7 +172,6 @@ function App() {
                 <a href="https://github.com" target="_blank" rel="noreferrer" className="btn btn-secondary">GitHub</a>
               </div>
             </div>
-
           </div>
         </div>
       </section>
