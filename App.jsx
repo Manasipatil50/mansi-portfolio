@@ -160,21 +160,31 @@ function App() {
         </div>
       </section>
 
-      {/* Contact Section */}
+      {/* Contact Section with Profile Image */}
       <section id="contact" className="contact-section">
         <div className="section-container">
           <h2 className="section-title">Get In Touch</h2>
-          <div className="contact-card">
-            <p>I am currently looking for Software Development and Application Support roles. Let's connect!</p>
-            <div className="contact-info">
-              <p>📧 Email: <a href="mailto:mansipatil7028@gmail.com">mansipatil7028@gmail.com</a></p>
-              <p>📞 Phone: +91 8767292361</p>
-              <p>📍 Location: Pune, Maharashtra</p>
+          <div className="contact-wrapper">
+            
+            {/* Left Side: Profile Image Card */}
+            <div className="contact-image-card">
+              <img src="/mansi-photo.jpg" alt="Mansi Patil" className="profile-img" />
             </div>
-            <div className="contact-links">
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="btn btn-secondary">LinkedIn</a>
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="btn btn-secondary">GitHub</a>
+
+            {/* Right Side: Contact Info Card */}
+            <div className="contact-card">
+              <p>I am currently looking for Software Development and Application Support roles. Let's connect!</p>
+              <div className="contact-info">
+                <p>📧 Email: <a href="mailto:mansipatil7028@gmail.com">mansipatil7028@gmail.com</a></p>
+                <p>📞 Phone: +91 8767292361</p>
+                <p>📍 Location: Pune, Maharashtra</p>
+              </div>
+              <div className="contact-links">
+                <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="btn btn-secondary">LinkedIn</a>
+                <a href="https://github.com" target="_blank" rel="noreferrer" className="btn btn-secondary">GitHub</a>
+              </div>
             </div>
+
           </div>
         </div>
       </section>
