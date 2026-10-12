@@ -152,13 +152,13 @@ function App() {
         </div>
       </section>
 
-      {/* Contact Section with Profile Image */}
+      {/* Contact Section with Profile Image Linked to your exact filename */}
       <section id="contact" className="contact-section">
         <div className="section-container">
           <h2 className="section-title">Get In Touch</h2>
           <div className="contact-wrapper">
             <div className="contact-image-card">
-              <img src="/mansi-photo.jpg" alt="Mansi Patil" className="profile-img" />
+              <img src="/manasi.jpeg.jpeg" alt="Mansi Patil" className="profile-img" />
             </div>
             <div className="contact-card">
               <p>I am currently looking for Software Development and Application Support roles. Let's connect!</p>
