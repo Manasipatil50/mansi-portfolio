@@ -402,3 +402,25 @@ body {
   font-size: 0.85rem;
   border-top: 1px solid rgba(255, 255, 255, 0.01);
 }
+/* Fix for Project Card Text Visibility */
+.project-card {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.project-header h3 {
+  color: #ffffff !important; /* Makes project name brilliant white */
+  font-size: 1.4rem !important;
+  font-weight: 700 !important;
+}
+
+.project-desc {
+  color: #cbd5e1 !important; /* Makes project description readable gray */
+}
+
+.project-tech span {
+  background: rgba(99, 102, 241, 0.1) !important;
+  color: #818cf8 !important; /* Beautiful glowing blue tags */
+  border: 1px solid rgba(99, 102, 241, 0.2) !important;
+}
+
