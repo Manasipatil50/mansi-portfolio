@@ -1,0 +1,252 @@
+/* Global Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2563eb; /* Royal Blue */
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #64748b;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #2563eb;
+}
+
+/* Hero Section Styles */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  padding: 0 8%;
+  text-align: center;
+  background: linear-gradient(to bottom, #ffffff, #f1f5f9);
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+
+.hero-content h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  color: #64748b;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: #2563eb;
+}
+
+/* Buttons Component */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-secondary {
+  border: 2px solid #cbd5e1;
+  color: #475569;
+}
+
+.btn-secondary:hover {
+  background-color: #f1f5f9;
+  border-color: #94a3b8;
+}
+/* Projects Section Style Rules */
+.projects-section {
+  padding: 80px 8%;
+  background-color: #ffffff;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-card {
+  background-color: #f8fafc;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.project-header h3 {
+  font-size: 1.25rem;
+  color: #0f172a;
+}
+
+.project-date {
+  font-size: 0.85rem;
+  color: #64748b;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.project-desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.project-tech span {
+  background-color: #f1f5f9;
+  color: #475569;
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: 500;
+  border: 1px solid #e2e8f0;
+}
+
+/* Contact Section Style Rules */
+.contact-section {
+  padding: 80px 8%;
+  background-color: #f1f5f9;
+  text-align: center;
+}
+
+.contact-card {
+  background-color: #ffffff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.contact-card p {
+  font-size: 1.05rem;
+  color: #475569;
+  margin-bottom: 25px;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+  text-align: left;
+  display: inline-block;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.contact-info a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Footer Style Rules */
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #0f172a;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
